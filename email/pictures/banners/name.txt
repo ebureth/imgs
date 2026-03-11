@@ -1,1 +1,15 @@
 banners
+# jsDelivr CDN links — email/pictures/banners
+# Base: https://cdn.jsdelivr.net/gh/ebureth/imgs@main/email/pictures/banners/
+
+HiSubscription.jpg
+https://cdn.jsdelivr.net/gh/ebureth/imgs@main/email/pictures/banners/HiSubscription.jpg
+
+Novostiszavoda.jpg
+https://cdn.jsdelivr.net/gh/ebureth/imgs@main/email/pictures/banners/Novostiszavoda.jpg
+
+ZakazOtpravlen.jpg
+https://cdn.jsdelivr.net/gh/ebureth/imgs@main/email/pictures/banners/ZakazOtpravlen.jpg
+
+gotovKotpravke.jpg
+https://cdn.jsdelivr.net/gh/ebureth/imgs@main/email/pictures/banners/gotovKotpravke.jpg
