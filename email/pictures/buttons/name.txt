@@ -4,3 +4,6 @@ buttons
 
 ContinueShopping.png
 https://cdn.jsdelivr.net/gh/ebureth/imgs@main/email/pictures/buttons/ContinueShopping.png
+
+SignTelegram.png
+https://cdn.jsdelivr.net/gh/ebureth/imgs@main/email/pictures/buttons/SignTelegram.png
