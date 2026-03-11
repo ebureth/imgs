@@ -1,1 +1,6 @@
 buttons
+# jsDelivr CDN links — email/pictures/buttons
+# Base: https://cdn.jsdelivr.net/gh/ebureth/imgs@main/email/pictures/buttons/
+
+ContinueShopping.png
+https://cdn.jsdelivr.net/gh/ebureth/imgs@main/email/pictures/buttons/ContinueShopping.png
