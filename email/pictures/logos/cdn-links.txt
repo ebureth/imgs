@@ -1,0 +1,14 @@
+# jsDelivr CDN links — email/pictures/logos
+# Base: https://cdn.jsdelivr.net/gh/ebureth/imgs@main/email/pictures/logos/
+
+EburetDownLogo.png
+https://cdn.jsdelivr.net/gh/ebureth/imgs@main/email/pictures/logos/EburetDownLogo.png
+
+EburetHeadLogo.jpg
+https://cdn.jsdelivr.net/gh/ebureth/imgs@main/email/pictures/logos/EburetHeadLogo.jpg
+
+pinterest.png
+https://cdn.jsdelivr.net/gh/ebureth/imgs@main/email/pictures/logos/pinterest.png
+
+telegram.png
+https://cdn.jsdelivr.net/gh/ebureth/imgs@main/email/pictures/logos/telegram.png
