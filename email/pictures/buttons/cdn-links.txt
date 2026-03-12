@@ -1,0 +1,14 @@
+# jsDelivr CDN links — email/pictures/buttons
+# Base: https://cdn.jsdelivr.net/gh/ebureth/imgs@main/email/pictures/buttons/
+
+ContinueShopping.png
+https://cdn.jsdelivr.net/gh/ebureth/imgs@main/email/pictures/buttons/ContinueShopping.png
+
+SignTelegram.png
+https://cdn.jsdelivr.net/gh/ebureth/imgs@main/email/pictures/buttons/SignTelegram.png
+
+ToManager.png
+https://cdn.jsdelivr.net/gh/ebureth/imgs@main/email/pictures/buttons/ToManager.png
+
+CatalogPanels.png
+https://cdn.jsdelivr.net/gh/ebureth/imgs@main/email/pictures/buttons/CatalogPanels.png
