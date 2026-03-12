@@ -1,0 +1,32 @@
+# jsDelivr CDN links — email/pictures/banners
+# Base: https://cdn.jsdelivr.net/gh/ebureth/imgs@main/email/pictures/banners/
+
+HiSubscription.jpg
+https://cdn.jsdelivr.net/gh/ebureth/imgs@main/email/pictures/banners/HiSubscription.jpg
+
+Novostiszavoda.jpg
+https://cdn.jsdelivr.net/gh/ebureth/imgs@main/email/pictures/banners/Novostiszavoda.jpg
+
+ZakazOtpravlen.jpg
+https://cdn.jsdelivr.net/gh/ebureth/imgs@main/email/pictures/banners/ZakazOtpravlen.jpg
+
+gotovKotpravke.jpg
+https://cdn.jsdelivr.net/gh/ebureth/imgs@main/email/pictures/banners/gotovKotpravke.jpg
+
+BannerInterier.jpg
+https://cdn.jsdelivr.net/gh/ebureth/imgs@main/email/pictures/banners/BannerInterier.jpg
+
+Collage1.jpg
+https://cdn.jsdelivr.net/gh/ebureth/imgs@main/email/pictures/banners/Collage1.jpg
+
+Collage2.jpg
+https://cdn.jsdelivr.net/gh/ebureth/imgs@main/email/pictures/banners/Collage2.jpg
+
+Collage3.jpg
+https://cdn.jsdelivr.net/gh/ebureth/imgs@main/email/pictures/banners/Collage3.jpg
+
+Half1.png
+https://cdn.jsdelivr.net/gh/ebureth/imgs@main/email/pictures/banners/Half1.png
+
+Half2.png
+https://cdn.jsdelivr.net/gh/ebureth/imgs@main/email/pictures/banners/Half2.png
