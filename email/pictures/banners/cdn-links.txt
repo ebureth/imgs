@@ -30,3 +30,18 @@ https://cdn.jsdelivr.net/gh/ebureth/imgs@main/email/pictures/banners/Half1.png
 
 Half2.png
 https://cdn.jsdelivr.net/gh/ebureth/imgs@main/email/pictures/banners/Half2.png
+
+b2b_banner.jpg
+https://cdn.jsdelivr.net/gh/ebureth/imgs@main/email/pictures/banners/b2b_banner.jpg
+
+b2b_lezhak.jpg
+https://cdn.jsdelivr.net/gh/ebureth/imgs@main/email/pictures/banners/b2b_lezhak.jpg
+
+b2c_banner.png
+https://cdn.jsdelivr.net/gh/ebureth/imgs@main/email/pictures/banners/b2c_banner.png
+
+b2c_b2b_kreslo.jpg
+https://cdn.jsdelivr.net/gh/ebureth/imgs@main/email/pictures/banners/b2c_b2b_kreslo.jpg
+
+b2c_lezhak.jpg
+https://cdn.jsdelivr.net/gh/ebureth/imgs@main/email/pictures/banners/b2c_lezhak.jpg
