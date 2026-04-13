@@ -15,3 +15,6 @@ https://cdn.jsdelivr.net/gh/ebureth/imgs@main/email/pictures/buttons/CatalogPane
 
 ConnectUs.png
 https://cdn.jsdelivr.net/gh/ebureth/imgs@main/email/pictures/buttons/ConnectUs.png
+
+GoToShopping.png
+https://cdn.jsdelivr.net/gh/ebureth/imgs@main/email/pictures/buttons/GoToShopping.png
