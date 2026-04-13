@@ -12,3 +12,6 @@ https://cdn.jsdelivr.net/gh/ebureth/imgs@main/email/pictures/buttons/ToManager.p
 
 CatalogPanels.png
 https://cdn.jsdelivr.net/gh/ebureth/imgs@main/email/pictures/buttons/CatalogPanels.png
+
+ConnectUs.png
+https://cdn.jsdelivr.net/gh/ebureth/imgs@main/email/pictures/buttons/ConnectUs.png
