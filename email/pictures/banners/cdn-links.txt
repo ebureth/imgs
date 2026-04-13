@@ -45,3 +45,12 @@ https://cdn.jsdelivr.net/gh/ebureth/imgs@main/email/pictures/banners/b2c_b2b_kre
 
 b2c_lezhak.jpg
 https://cdn.jsdelivr.net/gh/ebureth/imgs@main/email/pictures/banners/b2c_lezhak.jpg
+
+new_b2b_lezhak.png
+https://cdn.jsdelivr.net/gh/ebureth/imgs@main/email/pictures/banners/new_b2b_lezhak.png
+
+new_b2c_b2bkreslo.png
+https://cdn.jsdelivr.net/gh/ebureth/imgs@main/email/pictures/banners/new_b2c_b2bkreslo.png
+
+new_b2c_lezhak.png
+https://cdn.jsdelivr.net/gh/ebureth/imgs@main/email/pictures/banners/new_b2c_lezhak.png
