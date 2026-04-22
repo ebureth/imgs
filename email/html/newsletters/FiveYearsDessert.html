@@ -51,6 +51,13 @@
         line-height: 1.4;
       }
 
+      /* Gmail sometimes auto-links plain domains; keep them visually identical but unlinkable */
+      .gmail-domain {
+        color: inherit !important;
+        text-decoration: none !important;
+        pointer-events: none !important;
+      }
+
       @media (max-width: 620px) {
         .image_block div.fullWidth {
           max-width: 100% !important;
@@ -67,6 +74,22 @@
         .stack .column {
           width: 100% !important;
           display: block !important;
+        }
+
+        /* City gallery: remove fixed 280px cap on small screens (Gmail iOS) */
+        .city-gallery .city-thumb {
+          max-width: 100% !important;
+        }
+
+        .city-gallery .city-thumb img {
+          width: 100% !important;
+          max-width: 100% !important;
+          height: auto !important;
+        }
+
+        .city-gallery.stack .column {
+          padding-left: 20px !important;
+          padding-right: 20px !important;
         }
 
         .desktop_hide,
@@ -432,7 +455,7 @@
         <tr>
           <td>
             <table
-              class="row-content stack"
+              class="row-content stack city-gallery"
               align="center"
               cellpadding="0"
               cellspacing="0"
@@ -447,7 +470,7 @@
                       <tbody>
                         <tr>
                           <td style="padding-bottom: 8px">
-                            <div style="max-width: 280px">
+                            <div class="city-thumb" style="max-width: 280px">
                               <a href="https://t.me/eburet_studio/2937" target="_blank" style="display: block; text-decoration: none">
                                 <img width="280" alt="Москва" src="https://cdn.jsdelivr.net/gh/ebureth/imgs@main/email/pictures/banners/Moscow.png" style="display: block; height: auto; border: 0; width: 100%" />
                               </a>
@@ -469,7 +492,7 @@
                       <tbody>
                         <tr>
                           <td style="padding-bottom: 8px">
-                            <div style="max-width: 280px">
+                            <div class="city-thumb" style="max-width: 280px">
                               <a href="https://t.me/eburet_studio/2937" target="_blank" style="display: block; text-decoration: none">
                                 <img width="280" alt="Санкт‑Петербург" src="https://cdn.jsdelivr.net/gh/ebureth/imgs@main/email/pictures/banners/SPb.png" style="display: block; height: auto; border: 0; width: 100%" />
                               </a>
@@ -495,7 +518,7 @@
                       <tbody>
                         <tr>
                           <td style="padding-bottom: 8px">
-                            <div style="max-width: 280px">
+                            <div class="city-thumb" style="max-width: 280px">
                               <a href="https://t.me/eburet_studio/2937" target="_blank" style="display: block; text-decoration: none">
                                 <img width="280" alt="Нижний Новгород" src="https://cdn.jsdelivr.net/gh/ebureth/imgs@main/email/pictures/banners/NiNo.png" style="display: block; height: auto; border: 0; width: 100%" />
                               </a>
@@ -517,7 +540,7 @@
                       <tbody>
                         <tr>
                           <td style="padding-bottom: 8px">
-                            <div style="max-width: 280px">
+                            <div class="city-thumb" style="max-width: 280px">
                               <a href="https://t.me/eburet_studio/2937" target="_blank" style="display: block; text-decoration: none">
                                 <img width="280" alt="Владивосток" src="https://cdn.jsdelivr.net/gh/ebureth/imgs@main/email/pictures/banners/Vladivostok.png" style="display: block; height: auto; border: 0; width: 100%" />
                               </a>
@@ -543,7 +566,7 @@
                       <tbody>
                         <tr>
                           <td style="padding-bottom: 8px">
-                            <div style="max-width: 280px">
+                            <div class="city-thumb" style="max-width: 280px">
                               <a href="https://t.me/eburet_studio/2937" target="_blank" style="display: block; text-decoration: none">
                                 <img width="280" alt="Липецк" src="https://cdn.jsdelivr.net/gh/ebureth/imgs@main/email/pictures/banners/lipezk.png" style="display: block; height: auto; border: 0; width: 100%" />
                               </a>
@@ -565,7 +588,7 @@
                       <tbody>
                         <tr>
                           <td style="padding-bottom: 8px">
-                            <div style="max-width: 280px">
+                            <div class="city-thumb" style="max-width: 280px">
                               <a href="https://t.me/eburet_studio/2937" target="_blank" style="display: block; text-decoration: none">
                                 <img width="280" alt="Пермь" src="https://cdn.jsdelivr.net/gh/ebureth/imgs@main/email/pictures/banners/perm.png" style="display: block; height: auto; border: 0; width: 100%" />
                               </a>
@@ -591,7 +614,7 @@
                       <tbody>
                         <tr>
                           <td style="padding-bottom: 8px">
-                            <div style="max-width: 280px">
+                            <div class="city-thumb" style="max-width: 280px">
                               <a href="https://t.me/eburet_studio/2937" target="_blank" style="display: block; text-decoration: none">
                                 <img width="280" alt="Калининград" src="https://cdn.jsdelivr.net/gh/ebureth/imgs@main/email/pictures/banners/Kaliningrad.png" style="display: block; height: auto; border: 0; width: 100%" />
                               </a>
@@ -613,7 +636,7 @@
                       <tbody>
                         <tr>
                           <td style="padding-bottom: 8px">
-                            <div style="max-width: 280px">
+                            <div class="city-thumb" style="max-width: 280px">
                               <a href="https://t.me/eburet_studio/2937" target="_blank" style="display: block; text-decoration: none">
                                 <img width="280" alt="Челябинск" src="https://cdn.jsdelivr.net/gh/ebureth/imgs@main/email/pictures/banners/Chelyabinsk.png" style="display: block; height: auto; border: 0; width: 100%" />
                               </a>
@@ -639,7 +662,7 @@
                       <tbody>
                         <tr>
                           <td style="padding-bottom: 8px">
-                            <div style="max-width: 280px">
+                            <div class="city-thumb" style="max-width: 280px">
                               <a href="https://t.me/eburet_studio/2937" target="_blank" style="display: block; text-decoration: none">
                                 <img width="280" alt="Казань" src="https://cdn.jsdelivr.net/gh/ebureth/imgs@main/email/pictures/banners/kazan.png" style="display: block; height: auto; border: 0; width: 100%" />
                               </a>
@@ -683,7 +706,7 @@
                             <div style="color: #1A1A1A; font-family: Inter, sans-serif; font-size: 28px; font-weight: 500; letter-spacing: -1.4px; line-height: 113%; text-align: left">
                               <p style="margin: 0">
                                 К&nbsp;каждому спешлу&nbsp;— скрэтч‑карточка<br />
-                                с&nbsp;подарком: стираешь слой и&nbsp;внутри промокоды на&nbsp;eburet.com (вплоть до&nbsp;стоимости наших флагманских объектов).
+                                с&nbsp;подарком: стираешь слой и&nbsp;внутри промокоды на&nbsp;<span class="gmail-domain">eburet&#8203;.com</span> (вплоть до&nbsp;стоимости наших флагманских объектов).
                               </p>
                             </div>
                           </td>
