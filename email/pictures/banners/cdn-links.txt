@@ -84,3 +84,6 @@ https://cdn.jsdelivr.net/gh/ebureth/imgs@main/email/pictures/banners/lipezk.png
 
 perm.png
 https://cdn.jsdelivr.net/gh/ebureth/imgs@main/email/pictures/banners/perm.png
+
+small5years.jpg
+https://cdn.jsdelivr.net/gh/ebureth/imgs@main/email/pictures/banners/small5years.jpg
