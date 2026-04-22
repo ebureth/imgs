@@ -54,3 +54,24 @@ node tools/figma/connect.mjs --config tools/figma/config.json
 
 Do **not** commit `tools/figma/config.json` if it contains private info.
 
+## Export assets (PNG/JPG/SVG/PDF)
+
+This will download exports to your repo (so you can commit/push and get jsDelivr links).
+
+1) Create local config (gitignored) from example:
+
+```bash
+cp tools/figma/export.example.json tools/figma/export.json
+```
+
+2) Edit `tools/figma/export.json`:
+- set `token` (or use `FIGMA_TOKEN`)
+- set `fileKey` (from Figma URL)
+- set `assets` names EXACTLY as layer names in Figma
+
+3) Run export:
+
+```bash
+node tools/figma/export.mjs --config tools/figma/export.json
+```
+

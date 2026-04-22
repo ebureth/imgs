@@ -12,7 +12,7 @@ function usage() {
       "  node tools/figma/connect.mjs --config tools/figma/config.json",
       "",
       "Env:",
-      "  FIGMA_TOKEN        (required) Personal Access Token",
+      "  FIGMA_TOKEN        (optional) Personal Access Token (preferred)",
       "  FIGMA_FILE_KEY     (optional) Figma file key",
     ].join("\n"),
   );
@@ -52,13 +52,6 @@ async function main() {
     process.exit(0);
   }
 
-  const token = process.env.FIGMA_TOKEN;
-  if (!token) {
-    console.error("Missing FIGMA_TOKEN env var.");
-    usage();
-    process.exit(2);
-  }
-
   const configPathArg = getArgValue(args, "--config");
   let config = {};
   if (configPathArg) {
@@ -70,6 +63,13 @@ async function main() {
       process.exit(2);
     }
     config = JSON.parse(fs.readFileSync(abs, "utf8"));
+  }
+
+  const token = process.env.FIGMA_TOKEN || config.token || null;
+  if (!token) {
+    console.error("Missing Figma token. Provide FIGMA_TOKEN env var or put {\"token\":\"...\"} into tools/figma/config.json (gitignored).");
+    usage();
+    process.exit(2);
   }
 
   const fileKeyArg = getArgValue(args, "--file");

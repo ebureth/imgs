@@ -1,0 +1,13 @@
+{
+  "token": "PUT_TOKEN_HERE_OR_USE_ENV_VAR",
+  "fileKey": "4QWb5V6xMEMtVBlurs7Y8P",
+  "outDir": "email/pictures/buttons",
+  "format": "png",
+  "scale": 1,
+  "searchDepth": 10,
+  "assets": [
+    { "name": "узнать подробнее", "outFile": "LearnMore.png" },
+    { "name": "праздновать с нами", "outFile": "CelebrateWithUs.png" }
+  ]
+}
+
