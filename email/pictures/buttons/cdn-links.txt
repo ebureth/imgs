@@ -18,3 +18,9 @@ https://cdn.jsdelivr.net/gh/ebureth/imgs@main/email/pictures/buttons/ConnectUs.p
 
 GoToShopping.png
 https://cdn.jsdelivr.net/gh/ebureth/imgs@main/email/pictures/buttons/GoToShopping.png
+
+KnowMore.png
+https://cdn.jsdelivr.net/gh/ebureth/imgs@main/email/pictures/buttons/KnowMore.png
+
+CelebrateWithUs.png
+https://cdn.jsdelivr.net/gh/ebureth/imgs@main/email/pictures/buttons/CelebrateWithUs.png
