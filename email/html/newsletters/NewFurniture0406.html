@@ -12,6 +12,8 @@
       body {
         margin: 0;
         padding: 0;
+        -webkit-text-size-adjust: 100%;
+        text-size-adjust: 100%;
       }
 
       a[x-apple-data-detectors] {
@@ -70,17 +72,33 @@
           display: block !important;
         }
 
-        .product-grid .product-thumb {
-          max-width: 100% !important;
+        /* Product rows: keep 2 columns on Gmail iOS (do not stack) */
+        .product-grid .column {
+          width: 50% !important;
+          max-width: 50% !important;
+          display: table-cell !important;
+          vertical-align: top !important;
         }
 
-        .product-grid .product-thumb img {
+        .product-grid .column table {
+          width: 100% !important;
+        }
+
+        .product-grid .column img {
           width: 100% !important;
           max-width: 100% !important;
           height: auto !important;
         }
 
+        .product-grid .column td {
+          width: 100% !important;
+          max-width: 100% !important;
+        }
+
         .product-grid.stack .column {
+          width: 50% !important;
+          max-width: 50% !important;
+          display: table-cell !important;
           padding-left: 0 !important;
           padding-right: 0 !important;
         }
@@ -274,6 +292,7 @@
                         <tr>
                           <td class="pad" style="padding-left: 20px; padding-right: 30px">
                             <div
+                              class="email-copy"
                               style="
                                 color: #1a1a1a;
                                 direction: ltr;
@@ -284,6 +303,8 @@
                                 line-height: 113%;
                                 text-align: left;
                                 mso-line-height-alt: 30px;
+                                -webkit-text-size-adjust: 100%;
+                                text-size-adjust: 100%;
                               "
                             >
                               <p style="margin: 0 0 24px 0; font-size: 28px; font-weight: 500; letter-spacing: -5%; line-height: 113%; mso-line-height-alt: 32px">
@@ -291,7 +312,7 @@
                                 интерьерными трендами.
                               </p>
                             </div>
-                            <table width="100%" cellpadding="0" cellspacing="0" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt">
+                            <table class="email-copy" width="100%" cellpadding="0" cellspacing="0" style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; -webkit-text-size-adjust: 100%; text-size-adjust: 100%">
                               <tbody>
                                 <tr>
                                   <td
@@ -357,18 +378,18 @@
         <tr>
           <td>
             <table
-              class="row-content stack product-grid"
+              class="row-content product-grid"
               align="center"
               cellpadding="0"
               cellspacing="0"
-              style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; color: #000000; width: 600px; margin: 0 auto"
+              style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; color: #000000; width: 600px; margin: 0 auto; table-layout: fixed"
               width="600"
             >
               <tbody>
                 <tr>
                   <td
                     class="column column-1"
-                    width="300"
+                    width="50%"
                     style="
                       mso-table-lspace: 0pt;
                       mso-table-rspace: 0pt;
@@ -380,18 +401,19 @@
                       padding-left: 0;
                       padding-right: 0;
                       vertical-align: top;
+                      width: 50%;
                     "
                   >
                     <table width="100%" cellpadding="0" cellspacing="0">
                       <tbody>
                         <tr>
-                          <td style="padding-bottom: 12px; width: 300px; font-size: 0; line-height: 0; mso-line-height-rule: exactly">
+                          <td style="padding-bottom: 12px; width: 100%; font-size: 0; line-height: 0; mso-line-height-rule: exactly">
                             <a href="https://eburet.com/products/misha-101857" target="_blank" style="display: block; text-decoration: none; border: 0; line-height: 0">
                               <img
                                 width="300"
                                 alt="МИША"
                                 src="https://cdn.jsdelivr.net/gh/ebureth/imgs@main/email/pictures/banners/Misha0406.jpg"
-                                style="display: block; height: auto; border: 0; width: 300px; max-width: 100%"
+                                style="display: block; height: auto; border: 0; width: 100%; max-width: 100%"
                                 title="МИША"
                                 height="auto"
                               />
@@ -400,7 +422,7 @@
                         </tr>
                         <tr>
                           <td style="padding-bottom: 0; padding-left: 20px">
-                            <p style="margin: 0; font-family: Inter, sans-serif; font-size: 21px; font-weight: 500; line-height: 110%; letter-spacing: -3%; text-align: left; mso-line-height-alt: 23px">
+                            <p class="product-label" style="margin: 0; font-family: Inter, sans-serif; font-size: 21px; font-weight: 500; line-height: 110%; letter-spacing: -3%; text-align: left; mso-line-height-alt: 23px; -webkit-text-size-adjust: 100%; text-size-adjust: 100%">
                               <span style="color: #000000">МИША </span><span style="color: #d9d9d9">23.000&nbsp;₽</span>
                             </p>
                           </td>
@@ -410,7 +432,7 @@
                   </td>
                   <td
                     class="column column-2"
-                    width="300"
+                    width="50%"
                     style="
                       mso-table-lspace: 0pt;
                       mso-table-rspace: 0pt;
@@ -422,18 +444,19 @@
                       padding-left: 0;
                       padding-right: 0;
                       vertical-align: top;
+                      width: 50%;
                     "
                   >
                     <table width="100%" cellpadding="0" cellspacing="0">
                       <tbody>
                         <tr>
-                          <td style="padding-bottom: 12px; width: 300px; font-size: 0; line-height: 0; mso-line-height-rule: exactly">
+                          <td style="padding-bottom: 12px; width: 100%; font-size: 0; line-height: 0; mso-line-height-rule: exactly">
                             <a href="https://eburet.com/products/aleksandra-101885" target="_blank" style="display: block; text-decoration: none; border: 0; line-height: 0">
                               <img
                                 width="300"
                                 alt="АЛЕКСАНДРА"
                                 src="https://cdn.jsdelivr.net/gh/ebureth/imgs@main/email/pictures/banners/Aleksandra0406.jpg"
-                                style="display: block; height: auto; border: 0; width: 300px; max-width: 100%"
+                                style="display: block; height: auto; border: 0; width: 100%; max-width: 100%"
                                 title="АЛЕКСАНДРА"
                                 height="auto"
                               />
@@ -442,7 +465,7 @@
                         </tr>
                         <tr>
                           <td style="padding-bottom: 0; padding-left: 20px">
-                            <p style="margin: 0; font-family: Inter, sans-serif; font-size: 21px; font-weight: 500; line-height: 110%; letter-spacing: -3%; text-align: left; mso-line-height-alt: 23px">
+                            <p class="product-label" style="margin: 0; font-family: Inter, sans-serif; font-size: 21px; font-weight: 500; line-height: 110%; letter-spacing: -3%; text-align: left; mso-line-height-alt: 23px; -webkit-text-size-adjust: 100%; text-size-adjust: 100%">
                               <span style="color: #000000">АЛЕКСАНДРА </span><span style="color: #d9d9d9">58.000&nbsp;₽</span>
                             </p>
                           </td>
@@ -464,18 +487,18 @@
         <tr>
           <td>
             <table
-              class="row-content stack product-grid"
+              class="row-content product-grid"
               align="center"
               cellpadding="0"
               cellspacing="0"
-              style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; color: #000000; width: 600px; margin: 0 auto"
+              style="mso-table-lspace: 0pt; mso-table-rspace: 0pt; color: #000000; width: 600px; margin: 0 auto; table-layout: fixed"
               width="600"
             >
               <tbody>
                 <tr>
                   <td
                     class="column column-1"
-                    width="300"
+                    width="50%"
                     style="
                       mso-table-lspace: 0pt;
                       mso-table-rspace: 0pt;
@@ -487,18 +510,19 @@
                       padding-left: 0;
                       padding-right: 0;
                       vertical-align: top;
+                      width: 50%;
                     "
                   >
                     <table width="100%" cellpadding="0" cellspacing="0">
                       <tbody>
                         <tr>
-                          <td style="padding-bottom: 12px; width: 300px; font-size: 0; line-height: 0; mso-line-height-rule: exactly">
+                          <td style="padding-bottom: 12px; width: 100%; font-size: 0; line-height: 0; mso-line-height-rule: exactly">
                             <a href="https://eburet.com/products/tsvet-101329?variant=110212" target="_blank" style="display: block; text-decoration: none; border: 0; line-height: 0">
                               <img
                                 width="300"
                                 alt="ЦВЕТ"
                                 src="https://cdn.jsdelivr.net/gh/ebureth/imgs@main/email/pictures/banners/Tsvet0406.jpg"
-                                style="display: block; height: auto; border: 0; width: 300px; max-width: 100%"
+                                style="display: block; height: auto; border: 0; width: 100%; max-width: 100%"
                                 title="ЦВЕТ"
                                 height="auto"
                               />
@@ -507,7 +531,7 @@
                         </tr>
                         <tr>
                           <td style="padding-bottom: 0; padding-left: 20px">
-                            <p style="margin: 0; font-family: Inter, sans-serif; font-size: 21px; font-weight: 500; line-height: 110%; letter-spacing: -3%; text-align: left; mso-line-height-alt: 23px">
+                            <p class="product-label" style="margin: 0; font-family: Inter, sans-serif; font-size: 21px; font-weight: 500; line-height: 110%; letter-spacing: -3%; text-align: left; mso-line-height-alt: 23px; -webkit-text-size-adjust: 100%; text-size-adjust: 100%">
                               <span style="color: #000000">ЦВЕТ </span><span style="color: #d9d9d9">от&nbsp;89.000&nbsp;₽</span>
                             </p>
                           </td>
@@ -517,7 +541,7 @@
                   </td>
                   <td
                     class="column column-2"
-                    width="300"
+                    width="50%"
                     style="
                       mso-table-lspace: 0pt;
                       mso-table-rspace: 0pt;
@@ -529,18 +553,19 @@
                       padding-left: 0;
                       padding-right: 0;
                       vertical-align: top;
+                      width: 50%;
                     "
                   >
                     <table width="100%" cellpadding="0" cellspacing="0">
                       <tbody>
                         <tr>
-                          <td style="padding-bottom: 12px; width: 300px; font-size: 0; line-height: 0; mso-line-height-rule: exactly">
+                          <td style="padding-bottom: 12px; width: 100%; font-size: 0; line-height: 0; mso-line-height-rule: exactly">
                             <a href="https://eburet.com/products/cherepaha-6-101864" target="_blank" style="display: block; text-decoration: none; border: 0; line-height: 0">
                               <img
                                 width="300"
                                 alt="ЧЕРЕПАХА"
                                 src="https://cdn.jsdelivr.net/gh/ebureth/imgs@main/email/pictures/banners/Cherepaxa0406.jpg"
-                                style="display: block; height: auto; border: 0; width: 300px; max-width: 100%"
+                                style="display: block; height: auto; border: 0; width: 100%; max-width: 100%"
                                 title="ЧЕРЕПАХА"
                                 height="auto"
                               />
@@ -549,7 +574,7 @@
                         </tr>
                         <tr>
                           <td style="padding-bottom: 0; padding-left: 20px">
-                            <p style="margin: 0; font-family: Inter, sans-serif; font-size: 21px; font-weight: 500; line-height: 110%; letter-spacing: -3%; text-align: left; mso-line-height-alt: 23px">
+                            <p class="product-label" style="margin: 0; font-family: Inter, sans-serif; font-size: 21px; font-weight: 500; line-height: 110%; letter-spacing: -3%; text-align: left; mso-line-height-alt: 23px; -webkit-text-size-adjust: 100%; text-size-adjust: 100%">
                               <span style="color: #000000">ЧЕРЕПАХА </span><span style="color: #d9d9d9">30.000&nbsp;₽</span>
                             </p>
                           </td>
