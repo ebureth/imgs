@@ -24,3 +24,12 @@ https://cdn.jsdelivr.net/gh/ebureth/imgs@main/email/pictures/buttons/KnowMore.pn
 
 CelebrateWithUs.png
 https://cdn.jsdelivr.net/gh/ebureth/imgs@main/email/pictures/buttons/CelebrateWithUs.png
+
+BuyDiscountButton.png
+https://cdn.jsdelivr.net/gh/ebureth/imgs@main/email/pictures/buttons/BuyDiscountButton.png
+
+GoToWebsiteButton.png
+https://cdn.jsdelivr.net/gh/ebureth/imgs@main/email/pictures/buttons/GoToWebsiteButton.png
+
+WatchFactoryButton.png
+https://cdn.jsdelivr.net/gh/ebureth/imgs@main/email/pictures/buttons/WatchFactoryButton.png
