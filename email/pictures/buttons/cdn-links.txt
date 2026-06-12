@@ -33,3 +33,9 @@ https://cdn.jsdelivr.net/gh/ebureth/imgs@main/email/pictures/buttons/GoToWebsite
 
 WatchFactoryButton.png
 https://cdn.jsdelivr.net/gh/ebureth/imgs@main/email/pictures/buttons/WatchFactoryButton.png
+
+CreativeLetterButton.png
+https://cdn.jsdelivr.net/gh/ebureth/imgs@main/email/pictures/buttons/CreativeLetterButton.png
+
+NevaButton.png
+https://cdn.jsdelivr.net/gh/ebureth/imgs@main/email/pictures/buttons/NevaButton.png

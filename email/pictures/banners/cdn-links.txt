@@ -123,3 +123,15 @@ https://cdn.jsdelivr.net/gh/ebureth/imgs@main/email/pictures/banners/OlgaFirst12
 
 OlgaSecond1206.png
 https://cdn.jsdelivr.net/gh/ebureth/imgs@main/email/pictures/banners/OlgaSecond1206.png
+
+BannerNeva.jpg
+https://cdn.jsdelivr.net/gh/ebureth/imgs@main/email/pictures/banners/BannerNeva.jpg
+
+BottomNeva.jpg
+https://cdn.jsdelivr.net/gh/ebureth/imgs@main/email/pictures/banners/BottomNeva.jpg
+
+LeftNeva.jpg
+https://cdn.jsdelivr.net/gh/ebureth/imgs@main/email/pictures/banners/LeftNeva.jpg
+
+RightNeva.jpg
+https://cdn.jsdelivr.net/gh/ebureth/imgs@main/email/pictures/banners/RightNeva.jpg
