@@ -44,6 +44,17 @@
         text-size-adjust: 100%;
       }
 
+      /* Left 534×700, Right 526×700 — same height at equal width needs fixed frame */
+      .dual-grid .dual-img {
+        display: block;
+        width: 100%;
+        max-width: 100%;
+        height: 359px;
+        object-fit: cover;
+        object-position: center center;
+        border: 0;
+      }
+
       @media (max-width: 620px) {
         .row-content {
           width: 100% !important;
@@ -58,7 +69,7 @@
           width: 50% !important;
           max-width: 50% !important;
           display: table-cell !important;
-          vertical-align: top !important;
+          vertical-align: bottom !important;
         }
 
         .dual-grid .column-1 {
@@ -71,10 +82,11 @@
           padding-right: 20px !important;
         }
 
-        .dual-grid .column img {
+        .dual-grid .dual-img {
           width: 100% !important;
           max-width: 100% !important;
-          height: auto !important;
+          height: 249px !important;
+          object-fit: cover !important;
         }
       }
     </style>
@@ -163,23 +175,25 @@
             <table class="row-content dual-grid" align="center" cellpadding="0" cellspacing="0" style="width: 600px; margin: 0 auto; table-layout: fixed" width="600">
               <tbody>
                 <tr>
-                  <td class="column column-1" width="50%" style="background-color: #ffffff; padding-left: 20px; padding-right: 10px; vertical-align: top; width: 50%">
+                  <td class="column column-1" width="50%" style="background-color: #ffffff; padding-left: 20px; padding-right: 10px; vertical-align: bottom; width: 50%">
                     <a href="https://eburet.com/products/neva-101886" target="_blank" style="display: block; border: 0; line-height: 0; text-decoration: none">
                       <img
+                        class="dual-img"
                         width="270"
+                        height="359"
                         alt="НЕВА"
                         src="https://cdn.jsdelivr.net/gh/ebureth/imgs@main/email/pictures/banners/LeftNeva.jpg"
-                        style="display: block; height: auto; border: 0; width: 100%; max-width: 100%"
                       />
                     </a>
                   </td>
-                  <td class="column column-2" width="50%" style="background-color: #ffffff; padding-left: 10px; padding-right: 20px; vertical-align: top; width: 50%">
+                  <td class="column column-2" width="50%" style="background-color: #ffffff; padding-left: 10px; padding-right: 20px; vertical-align: bottom; width: 50%">
                     <a href="https://eburet.com/products/neva-101886" target="_blank" style="display: block; border: 0; line-height: 0; text-decoration: none">
                       <img
+                        class="dual-img"
                         width="270"
+                        height="359"
                         alt="НЕВА"
                         src="https://cdn.jsdelivr.net/gh/ebureth/imgs@main/email/pictures/banners/RightNeva.jpg"
-                        style="display: block; height: auto; border: 0; width: 100%; max-width: 100%"
                       />
                     </a>
                   </td>
